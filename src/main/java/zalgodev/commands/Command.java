@@ -22,4 +22,8 @@ public abstract class Command {
     public String getDescription() {
         return description;
     }
+
+    public String getUsage() {
+        return usage;
+    }
 }
