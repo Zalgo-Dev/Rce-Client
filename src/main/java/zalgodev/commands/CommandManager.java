@@ -9,7 +9,7 @@ import java.util.List;
 
 public class CommandManager {
     private static final List<Command> commands = new ArrayList<>();
-    private static final String prefix = "?";
+    private static final String prefix = ",";
 
     public static void init() {
         register(new HelpCommand());
