@@ -5,6 +5,7 @@ import net.minecraft.client.MinecraftClient;
 public abstract class Command {
     private final String name;
     private final String description;
+    private final String usage;
 
     public Command(String name, String description) {
         this.name = name;
