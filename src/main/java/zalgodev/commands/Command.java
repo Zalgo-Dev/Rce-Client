@@ -10,6 +10,7 @@ public abstract class Command {
     public Command(String name, String description, String usage) {
         this.name = name;
         this.description = description;
+        this.usage = usage;
     }
 
     public abstract void execute(MinecraftClient client, String[] args);
