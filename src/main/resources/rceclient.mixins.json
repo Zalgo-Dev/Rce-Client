@@ -3,7 +3,7 @@
 	"package": "zalgodev.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"ChatMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
