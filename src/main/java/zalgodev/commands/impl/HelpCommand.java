@@ -7,7 +7,7 @@ import zalgodev.commands.CommandManager;
 
 public class HelpCommand extends Command {
     public HelpCommand() {
-        super("help", "Affiche la liste des commandes disponibles.");
+        super("help", "Affiche la liste des commandes disponibles.", CommandManager.getPrefix() + "help");
     }
 
     @Override
