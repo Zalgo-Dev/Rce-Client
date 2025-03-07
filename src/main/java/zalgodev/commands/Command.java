@@ -7,7 +7,7 @@ public abstract class Command {
     private final String description;
     private final String usage;
 
-    public Command(String name, String description) {
+    public Command(String name, String description, String usage) {
         this.name = name;
         this.description = description;
     }
