@@ -20,7 +20,7 @@ public class CommandManager {
     }
 
     public static void executeCommand(MinecraftClient client, String input) {
-        if (!input.startsWith(prefix)) return; // Vérifie si le message commence par le préfixe
+        if (!input.startsWith(prefix)) return;
 
         String[] parts = input.substring(prefix.length()).split(" ");
         if (parts.length == 0) return;
